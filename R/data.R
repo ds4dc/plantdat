@@ -52,7 +52,7 @@
 
 #' Decaspermum occurrence records, selected columns
 #'
-#' A reduced version of [decaspermum] with 12 commonly used columns,
+#' A reduced version of [decaspermum] with 13 commonly used columns,
 #' intended for teaching.
 #'
 #' @format A tibble with one row per occurrence record and 12 columns:
@@ -67,6 +67,7 @@
 #'   \item{basisOfRecord}{Type of record (e.g. PRESERVED_SPECIMEN)}
 #'   \item{institutionCode}{Institution holding the specimen}
 #'   \item{recordedBy}{Collector or observer}
+#'   \item{license}{license of data}
 #' }
 #' @source GBIF.org, \url{https://www.gbif.org}. Download DOI: add here.
 "decaspermum_thin"
