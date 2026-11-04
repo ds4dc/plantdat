@@ -13,3 +13,5 @@ Depends:
 LazyData: true
 URL: https://github.com/ds4dc/plantdat
 BugReports: https://github.com/ds4dc/plantdat/issues
+Imports: 
+    tibble
